@@ -1,0 +1,967 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="be4uQhNzqIx5Hhqaen7X">
+    <mxGraphModel dx="2224" dy="2252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_tai_khoan" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="tai_khoan" vertex="1">
+          <mxGeometry height="270" width="250" x="735" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.id.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.id" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.ho_ten.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.ho_ten" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ho_ten &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(100)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.email.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.email" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="email &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(120)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.so_dien_thoai.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.so_dien_thoai" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_dien_thoai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(15)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.mat_khau_hash.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.mat_khau_hash" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="mat_khau_hash &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.ngay_sinh.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.ngay_sinh" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_sinh &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.dia_chi.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.dia_chi" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dia_chi &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.vai_tro.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.vai_tro" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="vai_tro &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.trang_thai.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.trang_thai" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.so_lan_sai.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.so_lan_sai" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_lan_sai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.ngay_tao.k" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="tai_khoan.ngay_tao" parent="t_tai_khoan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_tao &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="t_lich_su_dang_nhap" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="lich_su_dang_nhap" vertex="1">
+          <mxGeometry height="160" width="250" x="409" y="-532" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.id.k" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.id" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;BIGINT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.tai_khoan_id.k" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.tai_khoan_id" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tai_khoan_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.thoi_gian.k" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.thoi_gian" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="thoi_gian &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.dia_chi_ip.k" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.dia_chi_ip" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dia_chi_ip &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(45)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.thiet_bi.k" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.thiet_bi" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="thiet_bi &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(200)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.ket_qua.k" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="lich_su_dang_nhap.ket_qua" parent="t_lich_su_dang_nhap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ket_qua &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="t_tin_tuc" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="tin_tuc" vertex="1">
+          <mxGeometry height="226" width="250" x="96" y="-378" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.id.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.id" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.tieu_de.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.tieu_de" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tieu_de &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(200)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.loai.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.loai" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.tom_tat.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.tom_tat" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tom_tat &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(500)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.noi_dung.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.noi_dung" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="noi_dung &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(MAX)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.anh_dai_dien.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.anh_dai_dien" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="anh_dai_dien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.tac_gia_id.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.tac_gia_id" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tac_gia_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.ngay_dang.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.ngay_dang" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_dang &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.trang_thai.k" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="tin_tuc.trang_thai" parent="t_tin_tuc" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="t_phan_hoi" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="phan_hoi" vertex="1">
+          <mxGeometry height="248" width="273" x="1114" y="-365" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.id.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.id" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.tai_khoan_id.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.tai_khoan_id" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tai_khoan_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.ho_ten.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.ho_ten" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ho_ten &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(100)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.email.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.email" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="email &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(120)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.loai.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.loai" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.noi_dung.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.noi_dung" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="noi_dung &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(MAX)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.noi_dung_tra_loi.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.noi_dung_tra_loi" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="noi_dung_tra_loi &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(MAX)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.nguoi_xu_ly_id.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.nguoi_xu_ly_id" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="nguoi_xu_ly_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.trang_thai.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.trang_thai" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.ngay_gui.k" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="phan_hoi.ngay_gui" parent="t_phan_hoi" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_gui &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="t_voucher" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="voucher" vertex="1">
+          <mxGeometry height="270" width="250" x="207" y="-109" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.id.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.id" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.ma_code.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.ma_code" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ma_code &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.mo_ta.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.mo_ta" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="mo_ta &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(200)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.loai_giam.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.loai_giam" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai_giam &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(10)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.gia_tri.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.gia_tri" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="gia_tri &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.don_toi_thieu.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.don_toi_thieu" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="don_toi_thieu &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.so_luong.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.so_luong" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_luong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.da_su_dung.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.da_su_dung" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="da_su_dung &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.ngay_bat_dau.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.ngay_bat_dau" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_bat_dau &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.ngay_het_han.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.ngay_het_han" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_het_han &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.trang_thai.k" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="voucher.trang_thai" parent="t_voucher" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="t_don_dat_ve" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="don_dat_ve" vertex="1">
+          <mxGeometry height="270" width="250" x="245" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.id.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.id" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;BIGINT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.ma_don.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.ma_don" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ma_don &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.tai_khoan_id.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.tai_khoan_id" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tai_khoan_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.suat_chieu_id.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.suat_chieu_id" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="suat_chieu_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.voucher_id.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.voucher_id" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="voucher_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.tong_tien.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.tong_tien" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="tong_tien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.giam_gia.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.giam_gia" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="giam_gia &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.thanh_tien.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.thanh_tien" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="thanh_tien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.trang_thai.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.trang_thai" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.het_han_giu.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.het_han_giu" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="het_han_giu &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.ngay_tao.k" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="don_dat_ve.ngay_tao" parent="t_don_dat_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_tao &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="t_thanh_toan" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="thanh_toan" vertex="1">
+          <mxGeometry height="204" width="256" x="428" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.id.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.id" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;BIGINT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.don_dat_ve_id.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.don_dat_ve_id" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="don_dat_ve_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;BIGINT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.phuong_thuc.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.phuong_thuc" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="phuong_thuc &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.so_tien.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.so_tien" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_tien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.ma_giao_dich.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.ma_giao_dich" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ma_giao_dich &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(60)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.trang_thai.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.trang_thai" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.thoi_gian.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.thoi_gian" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="thoi_gian &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.phan_hoi_cong.k" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="thanh_toan.phan_hoi_cong" parent="t_thanh_toan" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="phan_hoi_cong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(MAX)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ve" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="ve" vertex="1">
+          <mxGeometry height="182" width="250" x="777" y="-57" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.id.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.id" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;BIGINT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.don_dat_ve_id.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.don_dat_ve_id" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="don_dat_ve_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;BIGINT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.suat_chieu_id.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.suat_chieu_id" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="suat_chieu_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.ghe_id.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.ghe_id" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ghe_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.gia_ve.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.gia_ve" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="gia_ve &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.ma_qr.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.ma_qr" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ma_qr &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(100)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.trang_thai.k" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ve.trang_thai" parent="t_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_suat_chieu" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="suat_chieu" vertex="1">
+          <mxGeometry height="204" width="250" x="774" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.id.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.id" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.phim_id.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.phim_id" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="phim_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.phong_chieu_id.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.phong_chieu_id" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="phong_chieu_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.ngay_chieu.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.ngay_chieu" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_chieu &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.gio_bat_dau.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.gio_bat_dau" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="gio_bat_dau &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;TIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.gio_ket_thuc.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.gio_ket_thuc" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="gio_ket_thuc &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;TIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.dinh_dang.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.dinh_dang" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dinh_dang &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(10)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.trang_thai.k" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="suat_chieu.trang_thai" parent="t_suat_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="t_phim" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="phim" vertex="1">
+          <mxGeometry height="270" width="250" x="777" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.id.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.id" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.ten_phim.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.ten_phim" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ten_phim &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(200)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.thoi_luong.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.thoi_luong" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="thoi_luong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.noi_dung.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.noi_dung" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="noi_dung &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(MAX)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.dao_dien.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.dao_dien" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dao_dien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(150)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.dien_vien.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.dien_vien" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dien_vien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(300)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.poster.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.poster" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="poster &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.trailer.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.trailer" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trailer &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.do_tuoi.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.do_tuoi" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="do_tuoi &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(10)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.ngay_khoi_chieu.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.ngay_khoi_chieu" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_khoi_chieu &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.trang_thai.k" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="phim.trang_thai" parent="t_phim" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="t_ghe" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="ghe" vertex="1">
+          <mxGeometry height="160" width="250" x="1143" y="-62" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.id.k" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.id" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.phong_chieu_id.k" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.phong_chieu_id" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="phong_chieu_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.loai_ghe_id.k" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.loai_ghe_id" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai_ghe_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.hang.k" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.hang" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="hang &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;CHAR(1)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.so_ghe.k" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.so_ghe" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_ghe &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.trang_thai.k" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="ghe.trang_thai" parent="t_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="t_phong_chieu" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="phong_chieu" vertex="1">
+          <mxGeometry height="182" width="250" x="1129" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.id.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.id" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.rap_id.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.rap_id" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="rap_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.ten_phong.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.ten_phong" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ten_phong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(50)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.loai_phong.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.loai_phong" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai_phong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.so_hang.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.so_hang" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_hang &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.so_cot.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.so_cot" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_cot &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.trang_thai.k" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="phong_chieu.trang_thai" parent="t_phong_chieu" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t_rap" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="rap" vertex="1">
+          <mxGeometry height="248" width="250" x="1189" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.id.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.id" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.ten_rap.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.ten_rap" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ten_rap &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(100)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.dia_chi.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.dia_chi" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dia_chi &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.thanh_pho.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.thanh_pho" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="thanh_pho &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(60)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.hotline.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.hotline" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="hotline &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(15)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.gio_hoat_dong.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.gio_hoat_dong" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="gio_hoat_dong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(60)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.vi_do.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.vi_do" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="vi_do &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(9,6)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.kinh_do.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.kinh_do" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="kinh_do &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(9,6)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.hinh_anh.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.hinh_anh" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="hinh_anh &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(255)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.trang_thai.k" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="rap.trang_thai" parent="t_rap" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="t_the_loai" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="the_loai" vertex="1">
+          <mxGeometry height="72" width="250" x="1217" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="the_loai.id.k" parent="t_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="the_loai.id" parent="t_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="the_loai.ten_the_loai.k" parent="t_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="the_loai.ten_the_loai" parent="t_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ten_the_loai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(50)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_phim_the_loai" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="phim_the_loai" vertex="1">
+          <mxGeometry height="72" width="250" x="1088" y="809" as="geometry" />
+        </mxCell>
+        <mxCell id="phim_the_loai.phim_id.k" parent="t_phim_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK,FK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phim_the_loai.phim_id" parent="t_phim_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="phim_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phim_the_loai.the_loai_id.k" parent="t_phim_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK,FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phim_the_loai.the_loai_id" parent="t_phim_the_loai" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="the_loai_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_loai_ghe" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="loai_ghe" vertex="1">
+          <mxGeometry height="94" width="250" x="1510" y="-13" as="geometry" />
+        </mxCell>
+        <mxCell id="loai_ghe.id.k" parent="t_loai_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="loai_ghe.id" parent="t_loai_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="loai_ghe.ten_loai.k" parent="t_loai_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="UQ" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loai_ghe.ten_loai" parent="t_loai_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ten_loai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(30)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="loai_ghe.mo_ta.k" parent="t_loai_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="loai_ghe.mo_ta" parent="t_loai_ghe" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="mo_ta &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(200)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t_gia_ve" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="gia_ve" vertex="1">
+          <mxGeometry height="204" width="250" x="1504" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.id.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.id" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.loai_ghe_id.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="FK" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.loai_ghe_id" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai_ghe_id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.dinh_dang.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.dinh_dang" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="dinh_dang &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(10)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.doi_tuong.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.doi_tuong" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="doi_tuong &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.loai_ngay.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.loai_ngay" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="loai_ngay &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.gia.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.gia" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="gia &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DECIMAL(10,0)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.ap_dung_tu.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.ap_dung_tu" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ap_dung_tu &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.ap_dung_den.k" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="gia_ve.ap_dung_den" parent="t_gia_ve" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ap_dung_den &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATE&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="t_dang_ky_nhuong_quyen" parent="1" style="swimlane;fontStyle=1;align=center;startSize=28;swimlaneFillColor=#ffffff;collapsible=0;rounded=0;fontSize=14;" value="dang_ky_nhuong_quyen" vertex="1">
+          <mxGeometry height="204" width="269" x="1504" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.id.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="PK" vertex="1">
+          <mxGeometry height="22" width="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.id" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="id &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;INT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.ho_ten.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.ho_ten" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ho_ten &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(100)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.email.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.email" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="email &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(120)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.so_dien_thoai.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.so_dien_thoai" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="so_dien_thoai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(15)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.khu_vuc_du_kien.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.khu_vuc_du_kien" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="khu_vuc_du_kien &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(150)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.ghi_chu.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.ghi_chu" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ghi_chu &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;NVARCHAR(500)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.trang_thai.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.trang_thai" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="trang_thai &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;VARCHAR(20)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.ngay_gui.k" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="22" width="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="dang_ky_nhuong_quyen.ngay_gui" parent="t_dang_ky_nhuong_quyen" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=4;fontSize=14;" value="ngay_gui &lt;font color=&quot;#777777&quot; style=&quot;font-size: 12px;&quot;&gt;DATETIME&lt;/font&gt;" vertex="1">
+          <mxGeometry height="22" width="202" x="48" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" edge="1" parent="1" source="tai_khoan.id.k" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="lich_su_dang_nhap.tai_khoan_id" value="ghi nhận">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="t_tai_khoan" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="t_don_dat_ve" value="đặt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="t_tai_khoan" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="t_phan_hoi" value="gửi">
+          <mxGeometry relative="1" x="-0.186" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="tai_khoan.id" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" value="xử lý">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1113.31" y="-346.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="t_tai_khoan" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="t_tin_tuc" value="đăng">
+          <mxGeometry relative="1" x="-0.0669" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="rap.id" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="phong_chieu.rap_id" value="có">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="phong_chieu.id" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="ghe.phong_chieu_id" value="gồm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="phong_chieu.rap_id.k" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="suat_chieu.phong_chieu_id" value="diễn ra tại">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="loai_ghe.id.k" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="ghe.loai_ghe_id" value="phân loại">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="loai_ghe.id" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="gia_ve.loai_ghe_id" value="định giá">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="phim.trang_thai" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="t_phim_the_loai" value="thuộc">
+          <mxGeometry relative="1" x="-0.0952" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="the_loai.id" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="phim_the_loai.the_loai_id" value="gồm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="phim.id" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="suat_chieu.gio_bat_dau" value="được chiếu">
+          <mxGeometry relative="1" x="0.3" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="suat_chieu.phim_id.k" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=-0.007;exitY=0.389;exitDx=0;exitDy=0;exitPerimeter=0;" target="don_dat_ve.thanh_tien" value="của">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="suat_chieu.id" style="edgeStyle=entityRelationEdgeStyle;fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="ve.suat_chieu_id" value="có">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="voucher.id.k" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" target="t_don_dat_ve" value="áp dụng">
+          <mxGeometry relative="1" x="-0.033" as="geometry">
+            <Array as="points">
+              <mxPoint x="103.6" y="-70" />
+              <mxPoint x="103.6" y="302.48" />
+            </Array>
+            <mxPoint x="115.8" y="-90" as="sourcePoint" />
+            <mxPoint x="193.67" y="297.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="t_don_dat_ve" style="fontSize=14;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;" target="t_ve" value="gồm">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="364" as="sourcePoint" />
+            <mxPoint x="858" y="66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="ghe.id.k" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="ve.id" value="được đặt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="don_dat_ve.ngay_tao" style="fontSize=14;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;endFill=0;startFill=0;labelBackgroundColor=#ffffff;exitX=0.168;exitY=1.091;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.001;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" target="t_thanh_toan" value="thanh toán">
+          <mxGeometry relative="1" x="0.0748" as="geometry">
+            <Array as="points">
+              <mxPoint x="375.8" y="602" />
+            </Array>
+            <mxPoint x="315.9999999999998" y="586" as="sourcePoint" />
+            <mxPoint x="476" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
